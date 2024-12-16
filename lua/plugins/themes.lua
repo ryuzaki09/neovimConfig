@@ -1,5 +1,22 @@
 return {
-  { "catppuccin/nvim" },
+  {
+    "catppuccin/nvim",
+    opts = {
+      color_overrides = {
+        all = {
+          text = "#ffffff",
+        },
+        latte = {
+          base = "#ff0000",
+          mantle = "#242424",
+          crust = "#474747",
+        },
+        frappe = {},
+        macchiato = {},
+        mocha = {},
+      },
+    },
+  },
   {
     "navarasu/onedark.nvim",
     opts = { toggle_style_list = { "dark", "cool", "deep", "warm" }, toggle_style_key = "<leader>ts" },
@@ -24,6 +41,7 @@ return {
   { "Yazeed1s/oh-lucy.nvim" },
   { "alexmozaidze/palenight.nvim" },
   { "sontungexpt/witch" },
+  { "projekt0n/github-nvim-theme" },
   {
     "LazyVim/LazyVim",
     opts = {
