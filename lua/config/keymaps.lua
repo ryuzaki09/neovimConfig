@@ -4,5 +4,6 @@
 
 local map = vim.keymap.set
 map("n", "gt", "<cmd>bnext<cr>")
+map("n", "gT", "<cmd>bprevious<cr>")
 map("n", "<C-n>", "<cmd>Neotree toggle<CR>")
 map("n", "\\p", "<cmd>LazyFormat<cr>")

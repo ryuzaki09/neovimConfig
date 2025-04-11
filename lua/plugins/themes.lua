@@ -32,7 +32,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin-frappe", -- catppuccin, catppuccin-frappe, catppuccin-macchiato, catppuccin-latte
+      colorscheme = "sonokai", -- catppuccin, catppuccin-frappe, catppuccin-macchiato, catppuccin-latte
     },
   },
 }
