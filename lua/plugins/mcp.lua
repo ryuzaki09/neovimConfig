@@ -17,6 +17,12 @@ return {
       on_ready = function()
         vim.notify("MCP Hub is online!")
       end,
+
+      log = {
+        level = vim.log.levels.WARN, -- DEBUG, INFO, WARN, ERROR
+        to_file = true
+      },
+
       extensions = {
         avante = {
           make_slash_commands = true, -- make /slash commands from MCP server prompts
